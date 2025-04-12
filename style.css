@@ -162,7 +162,8 @@ img{
     padding: 10%;
   }
   img{
-    max-width: 80%;
+    padding-top: 1rem;
+    max-width: 70%;
   }
 
   .menu-list_items{
