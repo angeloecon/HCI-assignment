@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOCKup</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo">
+        <img class="logo" src="./assets/a.svg" alt="">
+      </div>
+        <a href="javascript:void(0)" onclick="responsive()" >
+          <svg  xmlns="http://www.w3.org/2000/svg" display="none" height="24px" viewBox="0 -960 960 960" width="24px" fill="#00000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        </a>
+        <ul class="menu-list_items">
+          <li class="menu-list_item"><a href="#">Dash</a></li>
+          <li class="menu-list_item"><a href="#">About</a></li>
+          <li class="menu-list_item"><a href="#">Contact</a></li>
+        </ul>
+      
+    </nav>
+    <div onmouseleave="mouseLeave()" class="drop-down-menu" style="  display: none;">
+      <ul class="drop-down_items">
+        <li class="drop-down_item"><a href="#">Dash</a></li>
+        <li class="drop-down_item"><a href="#">About</a></li>
+        <li class="drop-down_item"><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <section class="main-section">
+      <div class="left-section">
+        <h1>Not Apple</h1>
+        <p>Bachelor of Science in Information Technology and Bachelor of Library and Information Science Library student</p>
+        <button id="spin-btn">Click Me</button>
+      </div>
+      <div class="right-section">
+        <img class="right-section-image" src="./assets/cet.svg" alt="">
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
