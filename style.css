@@ -137,6 +137,17 @@ img{
 
 
 @media screen and (max-width: 769px) {
+  nav{
+    height: 2.6rem;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+  
+  .logo{
+    width: 2rem;
+    height: 3rem;
+  }
+  
   .menu-list_items{
     display: none;
   }
