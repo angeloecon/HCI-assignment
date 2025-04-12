@@ -137,17 +137,34 @@ img{
 
 
 @media screen and (max-width: 769px) {
+
+  .left-section{
+    width: 100%;
+    padding: 10%;
+    padding-right: 0;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 499px){
   nav{
     height: 2.6rem;
     justify-content: space-between;
     padding: 0 1rem;
   }
-  
   .logo{
     width: 2rem;
     height: 3rem;
   }
-  
+
+  .left-section{
+    padding: 10%;
+  }
+  img{
+    max-width: 80%;
+  }
+
   .menu-list_items{
     display: none;
   }
@@ -174,21 +191,5 @@ img{
   }
   svg{
     display: block;
-  }
-  .left-section{
-    width: 100%;
-    padding: 10%;
-    padding-right: 0;
-    text-align: center;
-  }
-
-}
-
-@media screen and (max-width: 499px){
-  .left-section{
-    padding: 10%;
-  }
-  img{
-    max-width: 80%;
   }
 }
