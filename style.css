@@ -22,8 +22,8 @@ nav {
 }
 
 .logo {
-  width: 3.5rem; 
-  height: 2rem; 
+  width: 2.5rem; 
+  height: 2.5rem; 
 }
 
 .nav-items {
@@ -69,11 +69,10 @@ a:hover {
   width: 60%;
   margin: auto;
 }
-img{
+.right-section-image{
   max-width: 60%;
-
 }
-
+\
 .right-section{
   text-align: center;
 }
@@ -108,7 +107,6 @@ img{
   --final-rotation: 1080deg; 
   animation: spinSlowToFast 5s linear forwards; 
 }
-
 
 @keyframes spinSlowToFast {
   0% {
@@ -146,22 +144,21 @@ img{
   }
 }
 
-
 @media screen and (max-width: 499px){
   nav{
-    height: 2.6rem;
+    height: 3rem;
     justify-content: space-between;
     padding: 0 1rem;
   }
   .logo{
-    width: 2.5rem;
-    height: 2rem;
+    padding: 4px 0;
+    height: inherit;
   }
 
   .left-section{
     padding: 10%;
   }
-  img{
+  .right-section-image{
     padding-top: 1rem;
     max-width: 70%;
   }
